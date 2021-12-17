@@ -19,51 +19,24 @@ const Footer = () => {
               <img src={logo} alt="logo" />
             </div>
             <div className="SocialIcons">
-              <div
+              <a
                 className="SocialIconLink"
-                href="/"
+                href="https://www.facebook.com/pages/category/Automotive-Store/Boca-Auto-Peças-e-Tintas-103069911606905/"
                 target="_blank"
                 aria-label="Facebook"
                 rel="noopener noreferrer"
               >
                 <FaFacebook />
-              </div>
-              <div
+              </a>
+              <a
                 className="SocialIconLink"
-                href="/"
+                href="https://www.instagram.com/bocatintas/"
                 target="_blank"
                 aria-label="Instagram"
                 rel="noopener noreferrer"
               >
                 <FaInstagram />
-              </div>
-              <div
-                className="SocialIconLink"
-                href="/"
-                target="_blank"
-                aria-label="Youtube"
-                rel="noopener noreferrer"
-              >
-                <FaYoutube />
-              </div>
-              <div
-                className="SocialIconLink"
-                href="/"
-                target="_blank"
-                aria-label="Twitter"
-                rel="noopener noreferrer"
-              >
-                <FaTwitter />
-              </div>
-              <div
-                className="SocialIconLink"
-                href="/"
-                target="_blank"
-                aria-label="Linkedin"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedin />
-              </div>
+              </a>
             </div>
           </div>
         </div>
