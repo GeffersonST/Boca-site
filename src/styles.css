@@ -112,7 +112,7 @@ a:hover {
 /*HeroHome*/
 .HeroContainer {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
-    url(components/assets/background2.jpg);
+    url(components/assets/background1.jpg);
   height: 100%;
   background-position: center;
   background-size: cover;
