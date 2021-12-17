@@ -25,7 +25,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  height: 5vh;
+  height: 6vh;
 
   align-items: center;
   box-shadow: 0px 4px 16px rgb(32, 26, 26);
@@ -201,7 +201,7 @@ a:hover {
   font-weight: bold;
 }
 .SocialLogo img {
-  width: 60%;
+  width: 50%;
 }
 
 .SocialIcons {
