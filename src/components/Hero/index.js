@@ -1,12 +1,6 @@
-import React, { useState } from "react";
 import { BsTelephoneInboundFill } from "react-icons/bs";
 import { FaMotorcycle } from "react-icons/fa";
 const Hero = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
   return (
     <div className="HeroContainer">
       <div className="HeroContent">
