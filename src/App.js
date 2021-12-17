@@ -4,7 +4,7 @@ import styles from "./styles.css";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Hero from "./components/Hero";
-import Slide from "./Slide";
+
 import Products from "./components/Products";
 
 import Footer from "./components/Footer";
