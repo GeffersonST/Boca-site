@@ -35,7 +35,7 @@ body {
   margin-right: 100px;
 
   font-weight: bold;
-  color: white;
+  color: rgb(206, 203, 203);
 }
 
 .Header2 h1 {
@@ -57,11 +57,12 @@ body {
   left: 0;
   right: 0;
   margin: auto;
-  bottom: -35px;
-  border-radius: 10px;
+  bottom: -15px;
+  border-radius: 5px;
   grid-row: 2/3;
   grid-column: 3/4;
-  max-height: 100%;
+  max-height: 60%;
+  min-height: 60%;
   height: 130%;
   object-fit: cover;
   align-self: center;
@@ -69,7 +70,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(206, 203, 203);
 }
 a:hover {
   text-decoration: none;
@@ -145,6 +146,7 @@ a:hover {
 .HeroP {
   font-size: clamp(1rem, 2vw, 1rem);
   margin-bottom: 2rem;
+  margin-left: 2rem;
 }
 .HeroBtn {
   font-size: 1rem;
@@ -188,7 +190,7 @@ a:hover {
 }
 
 .SocialLogo {
-  color: #e0e8f9;
+  color: rgb(206, 203, 203);
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -197,6 +199,9 @@ a:hover {
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
+}
+.SocialLogo img {
+  width: 60%;
 }
 
 .SocialIcons {
@@ -207,7 +212,7 @@ a:hover {
 }
 
 .SocialIconLink {
-  color: #e0e8f9;
+  color: rgb(206, 203, 203);
   font-size: 24px;
 }
 
@@ -218,7 +223,7 @@ a:hover {
   min-height: 100vh;
 
   background: #150f0f;
-  color: white;
+  color: rgb(206, 203, 203);
 }
 .ProductWrapper {
   display: flex;
@@ -238,7 +243,7 @@ a:hover {
   height: 200px;
   min-width: 200px;
   max-width: 100%;
-  box-shadow: 8px 8px white;
+  box-shadow: 8px 8px rgb(206, 203, 203);
 }
 
 .ProductsHeading {
@@ -275,7 +280,7 @@ a:hover {
   padding: 1rem 4rem;
   border: none;
   background: #c72534;
-  color: white;
+  color: rgb(206, 203, 203);
   transition: 0.2 ease-out;
   margin-bottom: 4rem;
 }
