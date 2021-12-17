@@ -105,6 +105,7 @@ a:hover {
   bottom: -35px;
   max-width: 100%;
   width: 500px;
+  z-index: -10;
 
   object-fit: cover;
   align-self: center;
