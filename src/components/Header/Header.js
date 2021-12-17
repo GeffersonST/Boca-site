@@ -10,14 +10,10 @@ const Header = () => {
       <div className="Header2">
         {" "}
         <h1>
-          <a href="/">
-            <AiOutlineCar />
-          </a>
+          <AiOutlineCar />
         </h1>
         <h1>
-          <a href="/">
-            <BsPaintBucket />
-          </a>
+          <BsPaintBucket />
         </h1>
       </div>
 
