@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import Products from "./components/Products";
 
 import Footer from "./components/Footer";
+import CreatePoint from "./components/CreatePoint";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <br />
       <br />
       <Products />
+      <CreatePoint />
 
       <Footer />
     </div>
