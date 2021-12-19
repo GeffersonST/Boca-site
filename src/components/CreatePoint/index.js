@@ -12,11 +12,11 @@ const CreatePoint = () => {
       >
         <fieldset>
           <legend>
-            <h2>Endereço</h2>
+            <h2> R. Sete de Setembro, 3165 - São Miguel, Uruguaiana - RS</h2>
           </legend>
           <MapContainer
             center={[-29.767845, -57.0812917]}
-            zoom={13}
+            zoom={14}
             scrollWheelZoom={false}
           >
             <TileLayer

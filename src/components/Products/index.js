@@ -12,21 +12,33 @@ const Products = () => {
 
           <div className="ProductTitle">AUTOPEÇAS</div>
 
-          <div className="ProductButton"></div>
+          <select className="ProductButton">
+            <option>Freios</option>
+            <option>Peças para Motores</option>
+            <option>Suspensões</option>
+          </select>
         </div>
         <div className="ProductCard">
           <img className="ProductImg" src={img2} alt="img1" />
 
           <div className="ProductTitle">TINTAS AUTOMOTIVAS</div>
 
-          <div className="ProductButton"></div>
+          <select className="ProductButton">
+            <option> Todas as Marcas</option>
+            <option>Marcas</option>
+            <option>Marcas</option>
+          </select>
         </div>
         <div className="ProductCard">
           <img className="ProductImg" src={img3} alt="img1" />
 
           <div className="ProductTitle">TINTAS AGRÍCOLAS</div>
 
-          <div className="ProductButton"></div>
+          <select className="ProductButton">
+            <option> Todas as Marcas</option>
+            <option>Marcas</option>
+            <option>Marcas</option>
+          </select>
         </div>
       </div>
     </div>
