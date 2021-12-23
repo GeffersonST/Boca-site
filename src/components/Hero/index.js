@@ -5,10 +5,10 @@ const Hero = () => {
     <div className="HeroContainer">
       <div className="HeroContent">
         <div className="HeroItems">
-          <div className="HeroH1">Peças e Tintas Automotivas</div>
+          <div className="HeroH1">Escapamentos Lubrificantes</div>
           <div className="HeroP">
             {" "}
-            Tele-entrega <br />
+            Acessórios em Geral <br />
             <FaMotorcycle />
           </div>
 

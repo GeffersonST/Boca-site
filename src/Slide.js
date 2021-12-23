@@ -25,22 +25,6 @@ export default class Slide extends React.Component {
         original: "/img/photos/original/e.png",
         thumbnail: "/img/photos/thumb/e.png",
       },
-      {
-        original: "/img/photos/original/f.png",
-        thumbnail: "/img/photos/thumb/f.png",
-      },
-      {
-        original: "/img/photos/original/g.png",
-        thumbnail: "/img/photos/thumb/g.png",
-      },
-      {
-        original: "/img/photos/original/h.png",
-        thumbnail: "/img/photos/thumb/h.png",
-      },
-      {
-        original: "/img/photos/original/i.png",
-        thumbnail: "/img/photos/thumb/i.png",
-      },
     ];
     return <ImageGallery items={images} autoPlay={true} />;
   }

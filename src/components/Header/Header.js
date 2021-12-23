@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../assets/logofinale1.png";
+import logo from "../assets/logodescauto.png";
 import { BsPaintBucket } from "react-icons/bs";
 import { AiOutlineCar } from "react-icons/ai";
 

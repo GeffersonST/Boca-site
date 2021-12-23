@@ -16,7 +16,7 @@ body {
   height: 10vh;
   align-items: center;
 
-  background: #c72534;
+  background: linear-gradient(to right, #3e4095, #0a99dd);
 }
 .Header2 {
   position: fixed;
@@ -25,17 +25,17 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  height: 6vh;
+  height: 3vh;
 
   align-items: center;
   box-shadow: 0px 4px 16px rgb(32, 26, 26);
-  background: rgb(29, 29, 29);
+  background: linear-gradient(to right, #f7bb41, #fcb740);
   font-size: 10px;
   line-height: 29px;
   margin-right: 100px;
 
   font-weight: bold;
-  color: rgb(206, 203, 203);
+  color: #0a99dd;
 }
 
 .Header2 h1 {
@@ -139,7 +139,7 @@ a:hover {
 .HeroH1 {
   font-size: clamp(1.5rem, 5vw, 4rem);
   margin-bottom: 1rem;
-  box-shadow: 3px 5px #c72534;
+  box-shadow: 3px 5px #fcb740;
   letter-spacing: 3px;
 }
 .HeroP {
@@ -152,14 +152,14 @@ a:hover {
   padding: 0.5rem 5rem;
   border: none;
 
-  background: #c72534;
+  background: #0a99dd;
   color: rgb(29, 29, 29);
   transition: 0.2s ease-out;
 }
 
 /*Footer*/
 .FooterContainer {
-  background-color: #c72534;
+  background: linear-gradient(to right, #3e4095, #0a99dd);
 }
 .FooterWrap {
   padding: 16px 24px;
@@ -222,7 +222,7 @@ a:hover {
   min-height: 100vh;
 
   background: #150f0f;
-  color: rgb(206, 203, 203);
+  color: #0a99dd;
 }
 .ProductWrapper {
   display: flex;
@@ -242,7 +242,7 @@ a:hover {
   height: 200px;
   min-width: 200px;
   max-width: 100%;
-  box-shadow: 8px 8px rgb(206, 203, 203);
+  box-shadow: 8px 8px #fcb740;
 }
 
 .ProductsHeading {
@@ -278,7 +278,7 @@ a:hover {
   font-size: 1rem;
   padding: 1rem 4rem;
   border: none;
-  background: #c72534;
+  background: #3e4095;
   color: rgb(206, 203, 203);
   transition: 0.2 ease-out;
   margin-bottom: 4rem;
@@ -346,7 +346,7 @@ a:hover {
 #page-create-point form button {
   width: 260px;
   height: 56px;
-  background: #c72534;
+  background: #3e4095;
   border-radius: 8px;
   color: #fff;
   font-weight: bold;
